@@ -1,31 +1,25 @@
-# Wandering City — Unity FPS Team Project
+# Wandering City — Unity FPS
 
-## Academic Context
+A low-poly science-fiction FPS developed by a University of Melbourne COMP30019
+team in 2021. Chen Jiang contributed the story, particle effects, mission
+components, main scene, audio and evaluation. Team roles and the original
+gameplay, graphics and design explanation are retained below.
 
-University: University of Melbourne  
-Course: COMP30019 Graphics and Interaction, Project 2  
-Year: 2021  
-Project type: team
+## Open the project
 
-## Overview / My Contribution
+Use Unity **2021.1.13f1**, recorded in `ProjectSettings/ProjectVersion.txt`.
+The source includes gameplay scripts, team-created shaders, scene configuration
+and the project's screenshots/GIFs. Restore the licensed POLYGON Sci-Fi City,
+POLYGON Sci-Fi Space and CB Sci-Fi Outdoor resources in the referenced asset
+locations to use the original scene artwork. Public audio cues are simple
+generated placeholders with preserved scene references.
 
-Historical Unity 2021.1.13f1 team game. Chen Jiang contributed story, particles, mission components, main scene, audio and evaluation. The original team contribution table is retained below.
+## 2026 maintenance
 
-## 2026 AI-Assisted Maintenance
-
-Added accurate academic/team context and publication limitations; preserved the original game code and team table. No game rewrite or newly claimed Unity validation.
-
-## Build / Run and Verification
-
-Open in Unity 2021.1.13f1 (recorded in ProjectSettings/ProjectVersion.txt). Local source/scene/asset-reference inventory was reviewed. Unity editor/build/playthrough were NOT VERIFIED because a licensed matching editor was unavailable. Existing README instructions describe historical gameplay.
-
-## Known Limitations / Attribution
-
-Large textures, media and third-party Unity Asset Store content exist in the public repository. Asset Store packages may not permit raw-source redistribution; attribution links do not establish redistribution rights. **Recommend MAKE PRIVATE pending an asset-by-asset rights audit.** No assets or history were removed or relicensed in this normalization pass. See original References and team contributions below.
-
-## Original Snapshot
-
-Original Git history is retained. `ai/portfolio-normalization` identifies 2026 documentation maintenance, not original student development.
+AI-assisted maintenance updated the project presentation and separated external
+art/audio resources from the team's source. Gameplay and shader implementations
+remain the original student work. Editor build and playthrough are a manual
+verification step with the matching Unity environment and restored scene resources.
 
 ## Table of contents
 

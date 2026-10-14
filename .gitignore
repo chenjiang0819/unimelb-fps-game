@@ -118,3 +118,8 @@ $RECYCLE.BIN/
 *.baiduyun.uploading.cfg.meta
 *.backup
 /BackupUnusedAssets/
+# Restore these resources locally from their licensed packages.
+Assets/**/PolygonSciFi*/
+Assets/**/CB Sci-Fi [Oo]utdoor Pack/
+Assets/Meshes/Mountains/
+Assets/Meshes/Rocks/
