@@ -1,17 +1,31 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=450238&assignment_repo_type=GroupAssignmentRepo)
+# Wandering City — Unity FPS Team Project
 
+## Academic Context
 
-**The University of Melbourne**
+University: University of Melbourne  
+Course: COMP30019 Graphics and Interaction, Project 2  
+Year: 2021  
+Project type: team
 
-# COMP30019 – Graphics and Interaction
+## Overview / My Contribution
 
-Final Electronic Submission (project): **4pm, November 1**
+Historical Unity 2021.1.13f1 team game. Chen Jiang contributed story, particles, mission components, main scene, audio and evaluation. The original team contribution table is retained below.
 
-Do not forget **One member** of your group must submit a text file to the LMS (Canvas) by the due date which includes the commit ID of your final submission.
+## 2026 AI-Assisted Maintenance
 
-You can add a link to your Gameplay Video here but you must have already submit it by **4pm, October 17**
+Added accurate academic/team context and publication limitations; preserved the original game code and team table. No game rewrite or newly claimed Unity validation.
 
-# Project-2 README
+## Build / Run and Verification
+
+Open in Unity 2021.1.13f1 (recorded in ProjectSettings/ProjectVersion.txt). Local source/scene/asset-reference inventory was reviewed. Unity editor/build/playthrough were NOT VERIFIED because a licensed matching editor was unavailable. Existing README instructions describe historical gameplay.
+
+## Known Limitations / Attribution
+
+Large textures, media and third-party Unity Asset Store content exist in the public repository. Asset Store packages may not permit raw-source redistribution; attribution links do not establish redistribution rights. **Recommend MAKE PRIVATE pending an asset-by-asset rights audit.** No assets or history were removed or relicensed in this normalization pass. See original References and team contributions below.
+
+## Original Snapshot
+
+Original Git history is retained. `ai/portfolio-normalization` identifies 2026 documentation maintenance, not original student development.
 
 ## Table of contents
 
@@ -27,7 +41,7 @@ You can add a link to your Gameplay Video here but you must have already submit 
 * [Particles](#particles)
 * [Evaluation techniques](#evaluation-techniques)
     * [Feedback and changes](#feedback-and-changes)
-* [References](#References)
+* [References](#references)
 
 
 
@@ -181,11 +195,11 @@ Alright, our boss is a bunch of randomly rotating cubes, who can throw smaller r
 
 We’ve created several custom shaders to achieve the final look of our game. This includes a vertex shader, dozens of fragment shaders, and a few image effect shaders. 
 
-Most of the game objects are using a toon shader material. We come to this decision because this is a low-poly game, and the cartoon effect combines nicely with the low-poly geometry. This shader modifies the fragment shader stage of the graphics pipeline, and all the details are fully explained under the [Shaders](#Shaders) section.
+Most of the game objects are using a toon shader material. We come to this decision because this is a low-poly game, and the cartoon effect combines nicely with the low-poly geometry. This shader modifies the fragment shader stage of the graphics pipeline, and all the details are fully explained under the [Shaders](#shaders) section.
 
-We also wrote a vertex shader to create a shield effect with floating tiles. In the vertex shader stage, different parts of the mesh are offset by different amounts, and the amount is changing as time goes by. Full details of this shader are under the [Shaders](#Shaders) section as well.
+We also wrote a vertex shader to create a shield effect with floating tiles. In the vertex shader stage, different parts of the mesh are offset by different amounts, and the amount is changing as time goes by. Full details of this shader are under the [Shaders](#shaders) section as well.
 
-The laser material under the [Particles](#Particles) section also utilizes a custom fragment shader. The UV is moving throughout the time, combined with some other noise textures, to create a dissolving, glowing and energetic effect. 
+The laser material under the [Particles](#particles) section also utilizes a custom fragment shader. The UV is moving throughout the time, combined with some other noise textures, to create a dissolving, glowing and energetic effect. 
 
 At the output-merger stage, there are two more image effect shaders implemented. 
 
