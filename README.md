@@ -917,5 +917,5 @@ There are also more personal suggestions such as the need for more weapons, the 
 
 **SUS questionare**
 
-- [SUS: A Quick and Dirty Usability Scale](http://www.usabilitynet.org/trump/documents/Suschapt.doc) by John Brooke (1986)
+- [SUS: A Quick and Dirty Usability Scale](https://hci-studies.org/methods-and-measures/downloads/SUS_Brooke1996.pdf) by John Brooke (1986)
 
